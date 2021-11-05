@@ -6,10 +6,7 @@
     top: 40px;
 
 
-    font-family: Inconsolata, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-style: normal;
+    font-family: "Inconsolata", sans-serif;
     text-transform: uppercase;
     font-size: 24px;
     line-height: 25.18px;
@@ -22,4 +19,77 @@
     position: absolute;
     top: 265px;
     left: 77px;
+    width: 539.22px;
+    height: 447.43px;
+}
+
+.badNews {
+    position: absolute;
+    width: 586px;
+    height: 190px;
+    left: 735px;
+    top: 265px;
+
+
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    
+    color: #333333;
+}
+
+.advise {
+    position: absolute;
+    width: 381px;
+    height: 108px;
+    left: 736px;
+    top: 491px;
+
+
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    
+    color: #4f4f4f;
+}
+
+.blackButtonMessage{
+    position: absolute;
+    width: 216px;
+    height: 68px;
+    top: 663px;
+    left: 740px;
+
+
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #333333;  
+}
+.rights{
+position: absolute;
+width: 320px;
+height: 17px;
+left: 577px;
+top: 1039px;
+
+font-family: "Montserrat";
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #BDBDBD;
 }
