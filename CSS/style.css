@@ -7,7 +7,7 @@
 #wrapper{
     position: absolute;
     width: 100%;
-    height: 1440px;
+    height: 1080px;
     padding: 3.7% 8.26% 2.22% 5.35%;
 
 }
@@ -95,7 +95,7 @@
     width: 320px;
     height: 17px;
     left: 40.07%;
-    top: 96.2%;
+    top: 1039px;
 
     font-family: "Montserrat";
     font-style: normal;
@@ -117,6 +117,7 @@
         margin-bottom: max(16vw, 60px);
     }
     .rights{
+        top: 908px;
         left: auto;
 
     }
