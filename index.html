@@ -3,13 +3,12 @@
   <head>
     <meta charset="utf-8" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <title>404 Not Found</title>
 
-    <link rel="stylesheet" href="./CSS/style.css" media="screen and (min-width:376px)">
-
-    <link rel="stylesheet" href="./CSS/style_mobile.css" media="screen and (max-width:375px)">
+    <link rel="stylesheet" href="./CSS/style.css">
+    
 
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
 
@@ -20,19 +19,25 @@
   </head>
 
   <body>
-    <div class="notFound404">404 not found</div>
+    <div id="wrapper">
+      <div class="notFound404">404 not found</div>
 
-    <img class="scarecrow" src="./images/Scarecrow.png" 
-    alt="scarecrow" title="try again, not found dude">
+      <img class="scarecrow" src="./images/Scarecrow.png" 
+      alt="scarecrow" title="try again, not found dude">
+      
+      <div class="container">
+
+        <div class="badNews">I have bad news for you </div>
+        <div class="advise">The page you are looking for might be
+          removed or is temporarily unavailable</div>
+        <button class="blackButtonMessage" type="button"> Back to Homepage</button>
+
+      </div>
+      
+      
+
+      <div class="rights">Created by Gustavo Leite - devChalleges.io</div>
     
-    <div class="badNews">I have bad news for you </div>
-  
-    <div class="advise">The page you are looking for might be
-      removed or is temporarily unavailable
     </div>
-
-    <button class="blackButtonMessage" type="button"> Back to Homepage</button>
-
-    <div class="rights">Created by Gustavo Leite - devChalleges.io</div>
   </body>
 </html>
