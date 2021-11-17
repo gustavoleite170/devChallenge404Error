@@ -95,7 +95,8 @@
     width: 320px;
     height: 17px;
     left: 40.07%;
-    top: 1039px;
+    bottom: 24px;
+
 
     font-family: "Montserrat";
     font-style: normal;
@@ -117,14 +118,14 @@
         margin-bottom: max(16vw, 60px);
     }
     .rights{
-        top: 908px;
+        bottom: 24px;
         left: auto;
 
     }
 
     #wrapper{
     padding: 3.7% 8.26% 2.22% 4.8%;
-    height: 940px; 
+    height: 253vw; 
     }
 
   }
